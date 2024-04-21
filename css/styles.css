@@ -382,9 +382,10 @@ img {
 .footer__content {
 	display: flex;
 	align-items: baseline;
+	justify-content: space-between;
 }
 .footer__logo-text {
-	margin-right: 120px;
+	/* margin-right: 120px; */
 }
 
 .footer__text {
@@ -440,7 +441,55 @@ img {
 .icon-social-footer {
 	fill: rgb(244, 244, 253);
 }
-
+.footer__subscribe-text{
+	margin-bottom: 16px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.02em; 
+	color: #ffffff; 
+}
+.foooter__form{
+	display: flex;
+	gap: 24px;
+}
+.footer__email{
+	width: 264px; 
+	height: 40px;
+	 border: 1px solid #ffffff; 
+	 background-color: transparent; 
+	 font-size: 12px; 
+	 line-height: 2; 
+	 letter-spacing: 0.04em; 
+	 padding-left: 16px; 
+	  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	  border-radius: 4px; 
+	  color: #ffffff;
+}
+.footer__email::placeholder{
+	color: #ffffff;
+}
+.footer-send-btn{
+	min-width: 165px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	cursor: pointer;
+	background-color: #4d5ae5;
+	border: none;
+	border-radius: 4px;
+}
+.icon-send{
+	margin-left: 16px;
+	fill: #ffffff;
+}
 /* modal */
 .modal-overlay {
 	position: fixed;
