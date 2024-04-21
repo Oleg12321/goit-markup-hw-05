@@ -460,9 +460,9 @@
 					<p class="footer__subscribe-text">
 						Subscribe
 					</p>
-					<form action="" class="foooter__form">
+					<form class="foooter__form">
 						<label for="footer-email" class="footer__label">
-							<input id="footer-email" type="email" class="footer__email" placeholder="E-mail">
+							<input id="footer-email" type="email" name="footer-email" class="footer__email" placeholder="E-mail">
 						</label>
 						<button type="submit" class="footer-send-btn">
 							Subscribe
@@ -483,6 +483,7 @@
 				</button>
 				<p class="modal-title">Leave your contacts and we will call you back</p>
 				<form class="modal-form">
+					<div class="modal-form-box">
 					<lable for="user-name" class="modal-label">
 						Name
 						<div class="modal-input-box">
@@ -497,6 +498,8 @@
 							</svg>
 						</div>
 					</lable>
+					</div>
+					<div class="modal-form-box">
 					<lable for="user-phone" class="modal-label">
 						Phone
 						<div class="modal-input-box">
@@ -511,6 +514,8 @@
 							</svg>
 						</div>
 					</lable>
+					</div>
+					<div class="modal-form-box">
 					<lable id="user-email" class="modal-label">
 						Email
 						<div class="modal-input-box">
@@ -525,6 +530,8 @@
 							</svg>
 						</div>
 					</lable>
+					</div>
+					<div class="modal-form-box">
 					<label for="user-comment" class="modal-label">
 						Comment
 						<textarea
@@ -536,6 +543,7 @@
 							placeholder="Text input"
 						></textarea>
 					</label>
+					</div>
 					<div class="privacy-policy-box">
 					
 						<input
@@ -555,7 +563,8 @@
 						<a href="" class="privacy-link">Privacy Policy</a>
 					</label>
 					</div>
-					<button type="submit" class="btn-modal">Send</button>
+					<button type="button" class="btn-modal">Send</button>
+					
 				</form>
 			</div>
 		</div>
